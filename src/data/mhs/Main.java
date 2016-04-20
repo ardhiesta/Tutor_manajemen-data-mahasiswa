@@ -5,6 +5,8 @@
  */
 package data.mhs;
 
+import data.mhs.gui.FrameMhs;
+
 /**
  *
  * @author linuxluv
@@ -12,6 +14,7 @@ package data.mhs;
 public class Main {
     //method utama, yang pertama kali dieksekusi
     public static void main(String[] args) {
-        
+        FrameMhs fm = new FrameMhs();
+        fm.setVisible(true);
     }
 }
